@@ -1,0 +1,7 @@
+{
+  "theme": "dark",
+  "defaultProvider": "openrouter",
+  "defaultModel": "openrouter/auto",
+  "defaultProjectTrust": "always",
+  "quietStartup": true
+}

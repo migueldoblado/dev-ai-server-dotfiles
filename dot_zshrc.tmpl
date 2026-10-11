@@ -1,0 +1,13 @@
+# PATH
+export PATH=~/.local/bin:$PATH
+
+# OpenRouter API key (from pass)
+export OPENROUTER_API_KEY={{ pass "openrouter/token" }}
+
+# rtk hook for pi
+if command -v rtk >/dev/null 2>&1; then
+  eval "$(rtk init --agent pi 2>/dev/null)" || true
+fi
+
+# herdr aliases
+alias h=herdr

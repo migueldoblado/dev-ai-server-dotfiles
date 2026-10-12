@@ -6,3 +6,8 @@ export OPENROUTER_API_KEY={{ pass "openrouter/token" }}
 
 # herdr aliases
 alias h=herdr
+
+# Powerlevel10k. Config is ~/.p10k.zsh, copied from github.com/migueldoblado/dotfiles.
+# Theme is a chezmoi external at ~/.local/share/powerlevel10k (not vendored).
+[[ ! -r ~/.local/share/powerlevel10k/powerlevel10k.zsh-theme ]] || source ~/.local/share/powerlevel10k/powerlevel10k.zsh-theme
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
